@@ -1,0 +1,365 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Time Zones</title>
+    <meta name="description" content="Time Zone">
+    <meta name="author" content="Tadas">
+    <link rel="stylesheet" href="./libs/css/main.css">
+
+</head>
+
+<body>
+    <div class="table1">
+        <h1>Compare two diffrent countries</h1>
+        <div class="table">
+            <div class="box1">
+                <div class="box">
+                    <select id="selCountry1">
+                        <option value="GB">United Kingdom</option>
+                        <option value="LV">Latvia</option>
+                        <option value="LT">Lithuania</option>
+                        <option value="SE">Sweden</option>
+                    </select>
+
+                    <button id="btnRun">Run</button>
+
+                    <br><br>
+                </div>
+                <div id="divResults">
+
+                    <table>
+
+                        <tr>
+                            <td align="right">
+                                Continent:
+                            </td>
+                            <td id="txtContinent">
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td align="right">
+                                Capital:
+                            </td>
+                            <td id="txtCapital">
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td align="right">
+                                Languages:
+                            </td>
+                            <td id="txtLanguages">
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td align="right">
+                                Population:
+                            </td>
+                            <td id="txtPopulation">
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td align="right">
+                                Area (km<sup>2</sup>):
+                            </td>
+                            <td id="txtArea">
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td align="right">
+                                Currency:
+                            </td>
+                            <td id="txtCurrencyCode">
+
+                            </td>
+
+                        </tr>
+
+
+                    </table>
+
+                </div>
+            </div>
+            <div class="box2">
+                <div class="box">
+                    <select id="selCountry2">
+                        <option value="LY">Libya</option>
+                        <option value="NE">Niger</option>
+                        <option value="NO">Norway</option>
+                        <option value="DE">Germany</option>
+                    </select>
+
+                    <button id="btnRun2">Run</button>
+
+                    <br><br>
+                </div>
+                <div id="divResults">
+
+                    <table>
+
+                        <tr>
+                            <td align="right">
+                                Continent:
+                            </td>
+                            <td id="txtContinent2">
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td align="right">
+                                Capital:
+                            </td>
+                            <td id="txtCapital2">
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td align="right">
+                                Languages:
+                            </td>
+                            <td id="txtLanguages2">
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td align="right">
+                                Population:
+                            </td>
+                            <td id="txtPopulation2">
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td align="right">
+                                Area (km<sup>2</sup>):
+                            </td>
+                            <td id="txtArea2">
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td align="right">
+                                Currency:
+                            </td>
+                            <td id="txtCurrencyCode2">
+
+                            </td>
+
+                        </tr>
+
+
+                    </table>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="zone">
+        <h1>Compare two diffrent countries in two diffrent time zones</h1>
+    </div>
+    <div class="table2">
+        <div class="box3">
+            <div class="box">
+                <select id="setCountry3">
+                    <option value="25.2">Libya</option>
+                    <option value="15.2">Niger</option>
+                    <option value="61.2">Norway</option>
+                    <option value="54.2">Germany</option>
+                </select>
+
+                <button id="btnRun3">Run</button>
+
+                <br><br>
+            </div>
+            <div id="divResults">
+
+                <table>
+
+                    <tr>
+                        <td align="right">
+                            Country Name:
+                        </td>
+                        <td id="txtCountryName">
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td align="right">
+                            Country Code:
+                        </td>
+                        <td id="txtCountryCode">
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td align="right">
+                            Time:
+                        </td>
+                        <td id="txtTime">
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td align="right">
+                            Time Zone:
+                        </td>
+                        <td id="txtTimezoneId">
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td align="right">
+                            Sunset:
+                        </td>
+                        <td id="txtSunset">
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td align="right">
+                            Sunrise:
+                        </td>
+                        <td id="txtSunrise">
+
+                        </td>
+
+                    </tr>
+
+
+                </table>
+
+            </div>
+        </div>
+        <div class="box4">
+            <div class="box">
+                <select id="setCountry4">
+                    <option value="25.2">Libya</option>
+                    <option value="15.2">Niger</option>
+                    <option value="61.2">Norway</option>
+                    <option value="54.2">Germany</option>
+                </select>
+
+                <button id="btnRun4">Run</button>
+
+                <br><br>
+            </div>
+            <div id="divResults">
+
+                <table>
+
+                    <tr>
+                        <td align="right">
+                            Country Name:
+                        </td>
+                        <td id="txtCountryName4">
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td align="right">
+                            Country Code:
+                        </td>
+                        <td id="txtCountryCode4">
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td align="right">
+                            Time:
+                        </td>
+                        <td id="txtTime4">
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td align="right">
+                            Time Zone:
+                        </td>
+                        <td id="txtTimezoneId4">
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td align="right">
+                            Sunset:
+                        </td>
+                        <td id="txtSunset4">
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td align="right">
+                            Sunrise:
+                        </td>
+                        <td id="txtSunrise4">
+
+                        </td>
+
+                    </tr>
+
+
+                </table>
+
+            </div>
+        </div>
+    </div>
+    <script type="application/javascript" src="libs/js/jquery-2.2.3.min.js"></script>
+    <script type="application/javascript" src="libs/js/script.js"></script>
+    <script type="application/javascript" src="libs/js/script2.js"></script>
+    <script type="application/javascript" src="libs/js/script3.js"></script>
+    <script type="application/javascript" src="libs/js/script4.js"></script>
+
+
+</body>
+
+</html>
